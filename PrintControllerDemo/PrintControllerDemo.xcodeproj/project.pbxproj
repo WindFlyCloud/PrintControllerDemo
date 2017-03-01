@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB67AFFB1E66529900070EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67AFFA1E66529900070EFC /* main.m */; };
+		FB67AFFE1E66529900070EFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67AFFD1E66529900070EFC /* AppDelegate.m */; };
+		FB67B0011E66529900070EFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B0001E66529900070EFC /* ViewController.m */; };
+		FB67B0041E66529900070EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0021E66529900070EFC /* Main.storyboard */; };
+		FB67B0061E66529900070EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0051E66529900070EFC /* Assets.xcassets */; };
+		FB67B0091E66529900070EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0071E66529900070EFC /* LaunchScreen.storyboard */; };
+		FB67B0141E66529900070EFC /* PrintControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B0131E66529900070EFC /* PrintControllerDemoTests.m */; };
+		FB67B01F1E66529900070EFC /* PrintControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B01E1E66529900070EFC /* PrintControllerDemoUITests.m */; };
+		FB67B0381E66658B00070EFC /* PdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B0371E66658B00070EFC /* PdfViewController.m */; };
+		FB67B03B1E66659300070EFC /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B03A1E66659300070EFC /* TextViewController.m */; };
+		FB67B03E1E66659A00070EFC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B03D1E66659A00070EFC /* WebViewController.m */; };
+		FB67B0411E6665A100070EFC /* HtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB67B0401E6665A100070EFC /* HtmlViewController.m */; };
+		FB67B0441E6668B900070EFC /* Swift知识点.html in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0431E6668B900070EFC /* Swift知识点.html */; };
+		FB67B0461E6668C300070EFC /* MVVM自我了解.docx in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0451E6668C300070EFC /* MVVM自我了解.docx */; };
+		FB67B0481E6668C800070EFC /* cocopods语法.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0471E6668C800070EFC /* cocopods语法.rtf */; };
+		FB67B04A1E66696800070EFC /* AirPrint.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FB67B0491E66696800070EFC /* AirPrint.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB67B0101E66529900070EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB67AFEE1E66529900070EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB67AFF51E66529900070EFC;
+			remoteInfo = PrintControllerDemo;
+		};
+		FB67B01B1E66529900070EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB67AFEE1E66529900070EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB67AFF51E66529900070EFC;
+			remoteInfo = PrintControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB67AFF61E66529900070EFC /* PrintControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67AFFA1E66529900070EFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB67AFFC1E66529900070EFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB67AFFD1E66529900070EFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB67AFFF1E66529900070EFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB67B0001E66529900070EFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB67B0031E66529900070EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB67B0051E66529900070EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB67B0081E66529900070EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB67B00A1E66529900070EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67B00F1E66529900070EFC /* PrintControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67B0131E66529900070EFC /* PrintControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintControllerDemoTests.m; sourceTree = "<group>"; };
+		FB67B0151E66529900070EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67B01A1E66529900070EFC /* PrintControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67B01E1E66529900070EFC /* PrintControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintControllerDemoUITests.m; sourceTree = "<group>"; };
+		FB67B0201E66529900070EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67B0361E66658B00070EFC /* PdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewController.h; sourceTree = "<group>"; };
+		FB67B0371E66658B00070EFC /* PdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewController.m; sourceTree = "<group>"; };
+		FB67B0391E66659300070EFC /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		FB67B03A1E66659300070EFC /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		FB67B03C1E66659A00070EFC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FB67B03D1E66659A00070EFC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FB67B03F1E6665A100070EFC /* HtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlViewController.h; sourceTree = "<group>"; };
+		FB67B0401E6665A100070EFC /* HtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlViewController.m; sourceTree = "<group>"; };
+		FB67B0431E6668B900070EFC /* Swift知识点.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Swift知识点.html"; sourceTree = "<group>"; };
+		FB67B0451E6668C300070EFC /* MVVM自我了解.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MVVM自我了解.docx"; sourceTree = "<group>"; };
+		FB67B0471E6668C800070EFC /* cocopods语法.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "cocopods语法.rtf"; sourceTree = "<group>"; };
+		FB67B0491E66696800070EFC /* AirPrint.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AirPrint.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB67AFF31E66529900070EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B00C1E66529900070EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B0171E66529900070EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB67AFED1E66529900070EFC = {
+			isa = PBXGroup;
+			children = (
+				FB67AFF81E66529900070EFC /* PrintControllerDemo */,
+				FB67B0121E66529900070EFC /* PrintControllerDemoTests */,
+				FB67B01D1E66529900070EFC /* PrintControllerDemoUITests */,
+				FB67AFF71E66529900070EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB67AFF71E66529900070EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB67AFF61E66529900070EFC /* PrintControllerDemo.app */,
+				FB67B00F1E66529900070EFC /* PrintControllerDemoTests.xctest */,
+				FB67B01A1E66529900070EFC /* PrintControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB67AFF81E66529900070EFC /* PrintControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB67AFFC1E66529900070EFC /* AppDelegate.h */,
+				FB67AFFD1E66529900070EFC /* AppDelegate.m */,
+				FB67AFFF1E66529900070EFC /* ViewController.h */,
+				FB67B0001E66529900070EFC /* ViewController.m */,
+				FB67B0421E6668B000070EFC /* Resource */,
+				FB67B02C1E66654800070EFC /* Container */,
+				FB67B0021E66529900070EFC /* Main.storyboard */,
+				FB67B0051E66529900070EFC /* Assets.xcassets */,
+				FB67B0071E66529900070EFC /* LaunchScreen.storyboard */,
+				FB67B00A1E66529900070EFC /* Info.plist */,
+				FB67AFF91E66529900070EFC /* Supporting Files */,
+			);
+			path = PrintControllerDemo;
+			sourceTree = "<group>";
+		};
+		FB67AFF91E66529900070EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB67AFFA1E66529900070EFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB67B0121E66529900070EFC /* PrintControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB67B0131E66529900070EFC /* PrintControllerDemoTests.m */,
+				FB67B0151E66529900070EFC /* Info.plist */,
+			);
+			path = PrintControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		FB67B01D1E66529900070EFC /* PrintControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB67B01E1E66529900070EFC /* PrintControllerDemoUITests.m */,
+				FB67B0201E66529900070EFC /* Info.plist */,
+			);
+			path = PrintControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		FB67B02C1E66654800070EFC /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				FB67B0361E66658B00070EFC /* PdfViewController.h */,
+				FB67B0371E66658B00070EFC /* PdfViewController.m */,
+				FB67B0391E66659300070EFC /* TextViewController.h */,
+				FB67B03A1E66659300070EFC /* TextViewController.m */,
+				FB67B03C1E66659A00070EFC /* WebViewController.h */,
+				FB67B03D1E66659A00070EFC /* WebViewController.m */,
+				FB67B03F1E6665A100070EFC /* HtmlViewController.h */,
+				FB67B0401E6665A100070EFC /* HtmlViewController.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		FB67B0421E6668B000070EFC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FB67B0491E66696800070EFC /* AirPrint.pdf */,
+				FB67B0471E6668C800070EFC /* cocopods语法.rtf */,
+				FB67B0451E6668C300070EFC /* MVVM自我了解.docx */,
+				FB67B0431E6668B900070EFC /* Swift知识点.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB67AFF51E66529900070EFC /* PrintControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67B0231E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemo" */;
+			buildPhases = (
+				FB67AFF21E66529900070EFC /* Sources */,
+				FB67AFF31E66529900070EFC /* Frameworks */,
+				FB67AFF41E66529900070EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintControllerDemo;
+			productName = PrintControllerDemo;
+			productReference = FB67AFF61E66529900070EFC /* PrintControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB67B00E1E66529900070EFC /* PrintControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67B0261E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemoTests" */;
+			buildPhases = (
+				FB67B00B1E66529900070EFC /* Sources */,
+				FB67B00C1E66529900070EFC /* Frameworks */,
+				FB67B00D1E66529900070EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB67B0111E66529900070EFC /* PBXTargetDependency */,
+			);
+			name = PrintControllerDemoTests;
+			productName = PrintControllerDemoTests;
+			productReference = FB67B00F1E66529900070EFC /* PrintControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB67B0191E66529900070EFC /* PrintControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67B0291E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemoUITests" */;
+			buildPhases = (
+				FB67B0161E66529900070EFC /* Sources */,
+				FB67B0171E66529900070EFC /* Frameworks */,
+				FB67B0181E66529900070EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB67B01C1E66529900070EFC /* PBXTargetDependency */,
+			);
+			name = PrintControllerDemoUITests;
+			productName = PrintControllerDemoUITests;
+			productReference = FB67B01A1E66529900070EFC /* PrintControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB67AFEE1E66529900070EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "YJKJ-CaoXu";
+				TargetAttributes = {
+					FB67AFF51E66529900070EFC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GD4AFCNVT6;
+						ProvisioningStyle = Automatic;
+					};
+					FB67B00E1E66529900070EFC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB67AFF51E66529900070EFC;
+					};
+					FB67B0191E66529900070EFC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB67AFF51E66529900070EFC;
+					};
+				};
+			};
+			buildConfigurationList = FB67AFF11E66529900070EFC /* Build configuration list for PBXProject "PrintControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB67AFED1E66529900070EFC;
+			productRefGroup = FB67AFF71E66529900070EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB67AFF51E66529900070EFC /* PrintControllerDemo */,
+				FB67B00E1E66529900070EFC /* PrintControllerDemoTests */,
+				FB67B0191E66529900070EFC /* PrintControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB67AFF41E66529900070EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67B0091E66529900070EFC /* LaunchScreen.storyboard in Resources */,
+				FB67B0061E66529900070EFC /* Assets.xcassets in Resources */,
+				FB67B04A1E66696800070EFC /* AirPrint.pdf in Resources */,
+				FB67B0481E6668C800070EFC /* cocopods语法.rtf in Resources */,
+				FB67B0041E66529900070EFC /* Main.storyboard in Resources */,
+				FB67B0441E6668B900070EFC /* Swift知识点.html in Resources */,
+				FB67B0461E6668C300070EFC /* MVVM自我了解.docx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B00D1E66529900070EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B0181E66529900070EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB67AFF21E66529900070EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67B03B1E66659300070EFC /* TextViewController.m in Sources */,
+				FB67B03E1E66659A00070EFC /* WebViewController.m in Sources */,
+				FB67B0011E66529900070EFC /* ViewController.m in Sources */,
+				FB67AFFE1E66529900070EFC /* AppDelegate.m in Sources */,
+				FB67AFFB1E66529900070EFC /* main.m in Sources */,
+				FB67B0381E66658B00070EFC /* PdfViewController.m in Sources */,
+				FB67B0411E6665A100070EFC /* HtmlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B00B1E66529900070EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67B0141E66529900070EFC /* PrintControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67B0161E66529900070EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67B01F1E66529900070EFC /* PrintControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB67B0111E66529900070EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB67AFF51E66529900070EFC /* PrintControllerDemo */;
+			targetProxy = FB67B0101E66529900070EFC /* PBXContainerItemProxy */;
+		};
+		FB67B01C1E66529900070EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB67AFF51E66529900070EFC /* PrintControllerDemo */;
+			targetProxy = FB67B01B1E66529900070EFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB67B0021E66529900070EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB67B0031E66529900070EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB67B0071E66529900070EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB67B0081E66529900070EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB67B0211E66529900070EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB67B0221E66529900070EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB67B0241E66529900070EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD4AFCNVT6;
+				INFOPLIST_FILE = PrintControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB67B0251E66529900070EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD4AFCNVT6;
+				INFOPLIST_FILE = PrintControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB67B0271E66529900070EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrintControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintControllerDemo.app/PrintControllerDemo";
+			};
+			name = Debug;
+		};
+		FB67B0281E66529900070EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrintControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintControllerDemo.app/PrintControllerDemo";
+			};
+			name = Release;
+		};
+		FB67B02A1E66529900070EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrintControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrintControllerDemo;
+			};
+			name = Debug;
+		};
+		FB67B02B1E66529900070EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrintControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.PrintControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrintControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB67AFF11E66529900070EFC /* Build configuration list for PBXProject "PrintControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67B0211E66529900070EFC /* Debug */,
+				FB67B0221E66529900070EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB67B0231E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67B0241E66529900070EFC /* Debug */,
+				FB67B0251E66529900070EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB67B0261E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67B0271E66529900070EFC /* Debug */,
+				FB67B0281E66529900070EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB67B0291E66529900070EFC /* Build configuration list for PBXNativeTarget "PrintControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67B02A1E66529900070EFC /* Debug */,
+				FB67B02B1E66529900070EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB67AFEE1E66529900070EFC /* Project object */;
+}
